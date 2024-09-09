@@ -88,7 +88,7 @@ public class AKB_Login {
 	       }});
 		driver = new ChromeDriver(options);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		driver.get("https://10.11.144.178:8010/Home/Login/0");
+		"Applicationame"
 		
 		WebElement user = driver.findElement(By.id("eud"));
 		user.sendKeys(uname);
